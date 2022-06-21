@@ -21,6 +21,9 @@ Calculate frequency of occurence.
 Print the characters and its huffman code.
 
 Program:
+
+
+```
 # Get the input String
 string = 'from robomaster import robot'
 class NodeTree(object):
@@ -69,7 +72,7 @@ print(' Char | Huffman code ')
 print('----------------------')
 for (char, frequency) in freq:
     print('%-4r|%12s'%(char,huffmanCode[char]))
-
+```
 ## Output:
 
 ![output](./12.png)
